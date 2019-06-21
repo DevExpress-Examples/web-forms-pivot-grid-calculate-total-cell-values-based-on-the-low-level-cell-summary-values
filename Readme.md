@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to calculate Total cell values based on the low level Cell summary values
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t158425/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxPivotGridASPxPivotGrid_CustomSummarytopic">CustomSummary Event</a> to resolve the problem described in the <a href="https://www.devexpress.com/Support/Center/p/Q268380">Total values calculation seems to be incorrect, how to calculate Min, Max, Average values based on the cell</a> thread. The sample is built based on the ASPxPivotGrid control, but it is also possible to use this approach with other pivot control for WinForms, WPF, Silverlight and MVC. <br />Below is the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxPivotGridASPxPivotGrid_CustomSummarytopic">CustomSummary </a>event handler code description:<br /><strong>1.</strong> In the root IF clause, we determine the required summary type. For all fields below the "Company" one, it is necessary to show min values. In the attached sample project, all fields are located in the <a href="https://documentation.devexpress.com/#AspNet/CustomDocument3587">Row Area</a><u>,</u> so it is enough to check the <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPivotGridPivotGridFieldBase_AreaIndextopic">AreaIndex Property</a> of the corresponding <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPivotGridDataPivotGridCustomSummaryEventArgsBase~T~_RowFieldtopic">e.RowField</a>:</p>
