@@ -24,7 +24,7 @@ Aggr(Min(Aggr(Min([ProductAmount]), GetYear([OrderDate]), [ProductName], [Compan
 
 
 
-## Legacy Approach - Handle the CustomSummary Event
+## Legacy Approach - Handle the [CustomSummary](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.CustomSummary) Event
 
-You can handle the  [CustomSummary](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.CustomSummary) event to calculate custom summaries. The code demonstrates how to get the underlying data, group them and calculate the summaries.
+You can handle the **CustomSummary** event to calculate custom summaries. The code demonstrates how to get the underlying data, group them and calculate the summaries.
 
