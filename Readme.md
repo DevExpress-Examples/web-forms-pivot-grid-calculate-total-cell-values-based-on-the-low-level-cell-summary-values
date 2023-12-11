@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to calculate Total cell values based on the low level Cell summary values
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t158425/)**
+**[[Run Online]](https://codecentral.devexpress.com/128577227/)**
 <!-- run online end -->
 
 
