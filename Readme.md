@@ -2,6 +2,7 @@
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128577227/14.1.7%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T158425)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
@@ -10,9 +11,6 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to calculate Total cell values based on the low level Cell summary values
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128577227/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxPivotGridASPxPivotGrid_CustomSummarytopic">CustomSummary Event</a> to resolve the problem described in the <a href="https://www.devexpress.com/Support/Center/p/Q268380">Total values calculation seems to be incorrect, how to calculate Min, Max, Average values based on the cell</a> thread. The sample is built based on the ASPxPivotGrid control, but it is also possible to use this approach with other pivot control for WinForms, WPF, Silverlight and MVC. <br />Below is the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxPivotGridASPxPivotGrid_CustomSummarytopic">CustomSummary </a>event handler code description:<br /><strong>1.</strong> In the root IF clause, we determine the required summary type. For all fields below the "Company" one, it is necessary to show min values. In the attached sample project, all fields are located in the <a href="https://documentation.devexpress.com/#AspNet/CustomDocument3587">Row Area</a><u>,</u> so it is enough to check the <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPivotGridPivotGridFieldBase_AreaIndextopic">AreaIndex Property</a> of the corresponding <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPivotGridDataPivotGridCustomSummaryEventArgsBase~T~_RowFieldtopic">e.RowField</a>:</p>
@@ -93,3 +91,10 @@ e.CustomValue = value;
 <br/>
 
 
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-pivot-grid-calculate-total-cell-values-based-on-the-low-level-cell-summary-values&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-pivot-grid-calculate-total-cell-values-based-on-the-low-level-cell-summary-values&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
