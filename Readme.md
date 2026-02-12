@@ -31,7 +31,7 @@ You can handle the **CustomSummary** event to calculate custom summaries. The co
 * [CustomSummaryEventExample.aspx.cs](./CS/CustomSummaryEventExample.aspx.cs) (VB: [Default.aspx.vb](./VB/CustomSummaryEventExample.aspx.vb))
 * [AggrExpressionExample.aspx](./CS/AggrExpressionExample.aspx) (VB: [AggrExpressionExample.aspx](./VB/AggrExpressionExample.aspx))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-pivot-grid-calculate-total-cell-values-based-on-the-low-level-cell-summary-values&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-pivot-grid-calculate-total-cell-values-based-on-the-low-level-cell-summary-values&~~~was_helpful=no)
 
